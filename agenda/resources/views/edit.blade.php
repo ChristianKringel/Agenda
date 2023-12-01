@@ -44,7 +44,7 @@
                 </div>
                 <div class="text-fill">
                     <label for="numero">Número</label>
-                    <input type="text" name="rua" placeholder="Número" id="numero"
+                    <input type="text" name="numero" placeholder="Número" id="numero"
                         value="{{ $contato->endereco->numero }}" required>
                 </div>
                 <div class="text-fill">
@@ -78,10 +78,9 @@
                 </div>
                 @endif
 
-                <form action="{{ route('contatos.update', ['id' => $contato->id]) }}" method="post">
+                <form action="{{ route('contatos.update', ['id' => $contato->id]) }}" method="get">
                     @csrf
                     @method('put')
-                    <!-- Seu código do formulário aqui -->
                     <button type="submit" class="edit-bttn">Salvar</button>
                 </form>
             </div>
