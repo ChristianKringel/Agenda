@@ -1,0 +1,77 @@
+body{
+    background-color: #201b2c;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+
+.card-text {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.edit-bttn {
+    width: 80%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.text-fill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text-fill>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-fill>label {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text-fill>input::placeholder {
+    color: #f0ffff94;
+}
+
+.alert{
+    color: red;
+}
+.form-edit {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto; 
+    text-align: center;
+}
+
+.text-fill {
+    margin-bottom: 15px; 
+}

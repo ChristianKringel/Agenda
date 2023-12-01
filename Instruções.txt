@@ -1,0 +1,18 @@
+Executar o comando a seguir por conta da API do CEP 
+node proxy-server.js
+
+Comando para puxar o bd para o phpadmin ou coisa do tipo
+php artisan migrate
+
+Para este comando usei no .env o banco de dados Agenda. 
+
+php artisan serve
+
+Para iniciar o servidor.
+
+Algumas instruções: 
+A página inicial é no próprio / 
+O login se chama /meu-login 
+Registro é /registro
+
+Qualquer dúvida podem entrar em contato pelo email ou telefone. Obrigado pela oportunidade. 

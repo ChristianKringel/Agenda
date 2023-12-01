@@ -1,0 +1,33 @@
+/* styleNomes.css */
+body {
+    background-color: #201b2c;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.lista-nomes {
+    padding: 20px;
+}
+
+.lista-nomes h1 {
+    color: #00ff88;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.lista-nomes p {
+    margin-bottom: 10px;
+}
+
+.nome-text {
+    color: #ffff;
+    font-size: 1.2em;
+}
+.excluir-btn{
+
+    background-color: #00ff88;
+    color: black;
+    padding: 10px 15px;
+}
+

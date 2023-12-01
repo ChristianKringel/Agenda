@@ -1,0 +1,16 @@
+.text-fill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text-fill>label {
+    color: #77ffc0;
+    margin-bottom: 10px;
+}
+
+/* color: #00ff88;
+    color: #77ffc0; */ 

@@ -1,0 +1,33 @@
+/* styleNomes.css */
+body {
+    background-color: #201b2c;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.lista-nomes {
+    padding: 20px;
+}
+
+h1,
+h2,
+strong {
+    color: #00ff88;
+}
+
+.detalhes-contato {
+    color: #77ffc0;
+}
+.detalhes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; 
+}
+.detalhe{
+    font-size: 1.4em;
+}
+/*color: #00ff88;
+    color: #77ffc0; */

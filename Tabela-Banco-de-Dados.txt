@@ -1,0 +1,15 @@
+O banco foi feito de forma com que seja necessário ter uma autenticação. 
+Cada usuário autenticado possui nenhum ou vários contatos. Enquanto cada contato pode pertencer a somente um usuário. 
+O endereço funciona da mesma forma. 
+Mesmo não sendo usada a lógica de vários contatos com o mesmo endereço, ainda é possível fazer isto. 
+
+Autentication (id, email, senha_
+Chave primária é id 
+
+Contatos(id, nroCel, nome, email, nota, endereco_id, autentication_id)
+Chave primária é id 
+endereco_id referencia endereco(endereco_id) 
+autentication_id referencia autentication(autentication_id)
+
+Endereco(Cep, rua, número, complemento, bairro, cidade, estado, endereco_id)
+Chave primária é endereco_id 
